@@ -98,6 +98,9 @@ a {
 .features-title-h {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -122,6 +125,9 @@ a {
 /* #region our team */
 .title-our-team {
     font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
@@ -129,6 +135,9 @@ a {
 
 .portfolio-title {
     font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
