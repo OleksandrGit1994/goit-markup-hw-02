@@ -37,7 +37,29 @@ a {
 .page-header {
     display: flex;
     align-items: center;
-    
+    padding: 0 auto;
+    margin: auto;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
@@ -56,12 +78,20 @@ a {
     line-height: 1.17;
 }
 
+.header-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
+}
+
 .nav-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -70,10 +100,14 @@ a {
 }
 
 .contacts {
+    display: flex;
     font-style: normal;
+    margin-left: 332px;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -122,18 +156,19 @@ a {
 .features-title-h {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 
 
 .features-paragraf {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
@@ -160,6 +195,10 @@ a {
     text-transform: capitalize;
 }
 
+.team-member {
+    background-color: #ffffff;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -184,24 +223,50 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .team-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+/* #endregion our team */
+
+/* #region our portfolio */
+
+.section-our-portfolio {
+    background-color: #ffffff;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-role {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* #endregion our team */
-
-/* #region our portfolio */
-.portfolio-title {
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-
 
 .h-our-team {
     line-height: 1.11;
